@@ -106,7 +106,7 @@ SDL2_Files = [
 
 len_of_all_files = len(hpp_files) + len(asset_files) + len(cpp_files) + len(SDL2_Files)
 found_files = 0
-URL = 'https://github.com/123x456/Untitled_SDL2_Game/archive/refs/heads/master.zip'
+URL = 'https://github.com/vlrst/Untitled_SDL2_Game/archive/refs/heads/master.zip'
 mac_chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
 win_chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 with alive_bar(len_of_all_files, dual_line=True, title='Checking for ALL Files') as bar:
